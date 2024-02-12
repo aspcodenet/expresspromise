@@ -10,10 +10,22 @@ function myFetch(url){
            }, 10000); 
         }); 
     return myPromise
-
-        
 }
 
+let age = 123
+
+
+// function test(){
+//     console.log('testing')
+// }
+
+// module.exports = test
+
+
+
 module.exports = {
-    myFetch
+    myFetch,
+    team: 'Colorado',
+    name: '2344',
+    age
 }
